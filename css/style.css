@@ -130,3 +130,22 @@ span{
 #kard8{
   background-image: url('../assets/index/pexels-photo-2345374.jpeg');
 }
+
+hr{
+  width: 60%;
+  margin: auto;
+  border: 2px solid #ae80c5;;
+}
+
+.mission{
+  color: #a56cc1;
+}
+
+.mission-txt{
+  transition: all 1s;
+}
+
+.mission-txt:hover{
+  color: #fff;
+  background-color: #a56cc1;
+}
