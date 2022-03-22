@@ -20,6 +20,22 @@
   background-color: #a56cc1 !important;
 }
 
+.btn-info{
+  background-color: #a56cc1;
+  border-style: none;
+  color: #fff;
+}
+.btn-info:hover{
+  background-color: transparent;
+  outline-color: #a56cc1;
+  color: #fff;
+  border: 2px solid #a56cc1;
+}
+
 span{
   color: #CEFFF1;
+}
+
+.banner-txt{
+  font-size: 0.8em;
 }
