@@ -1,0 +1,24 @@
+body{}
+.start{
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../assets/blog/expertise.jpg");
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+
+}
+.start h1,h5{
+    margin-top: 20vh;
+}
+.card{
+    background-color: black;
+    margin: 5vh 1vw;
+    height: 60vh;
+    width: 30vw;
+}
+.card h5,p{
+    color: #CEFFF1;
+    margin: ;
+}
+.card img{
+    height: 54vh;
+}
