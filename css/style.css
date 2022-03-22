@@ -132,7 +132,7 @@ span{
 }
 
 hr{
-  width: 60%;
+  width: 40%;
   margin: auto;
   border: 2px solid #ae80c5;;
 }
@@ -148,4 +148,17 @@ hr{
 .mission-txt:hover{
   color: #fff;
   background-color: #a56cc1;
+}
+
+.fa-clipboard-check, .fa-comments, .fa-hands-holding-child{
+  font-size: 3em;
+}
+
+.happens-cards{
+  background-color: #a56cc1;
+  color: #fff;
+}
+
+.happen-hr{
+  width: 40%;
 }
