@@ -1,0 +1,164 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-img{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/index/dan-meyers-hluOJZjLVXc-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link{
+  transition: all 1s ease-in-out;
+}
+.nav-link:hover{
+  text-decoration: 4px underline #a56cc1;
+  color: #CEFFF1 !important;
+}
+
+nav{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.btn-outline-info{
+  border-color: #a56cc1 !important;
+  transition: all 1s;
+}
+
+.btn-outline-info:hover{
+  background-color: #a56cc1 !important;
+}
+
+.btn-info{
+  background-color: #a56cc1;
+  border-style: none;
+  color: #fff;
+  transition: all 1s;
+}
+.btn-info:hover{
+  background-color: transparent;
+  outline-color: #a56cc1;
+  color: #fff;
+  border: 2px solid #a56cc1;
+}
+
+span{
+  color: #CEFFF1;
+}
+
+.banner-txt{
+  font-size: 0.8em;
+  color: #CEFFF1;
+}
+
+.fa-chevron-down{
+  font-size: 3em;
+  animation: move-down 1s infinite;
+  position: relative;
+}
+
+@keyframes move-down{
+  0%{top: -50px;}
+  100%{top:0px;}
+}
+
+.help{
+  color: rgb(165, 108, 193);
+}
+
+.kard{
+  position: relative;
+  height: 18rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-weight: bold;
+}
+
+.kard:hover{
+  cursor: pointer;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(165, 108, 193, 0.4);
+  z-index: 5;
+}
+
+
+.card-txt{
+  z-index: 5;
+}
+
+.card-txt h3{
+  font-weight: bold;
+}
+
+#kard1{
+  background-image: url('../assets/index/pexels-photo-9063624.jpeg');
+}
+
+#kard2{
+  background-image: url('../assets/index/pexels-photo-736843.jpeg');
+}
+
+#kard3{
+  background-image: url('../assets/index/photo-1515015337340-dbabb1fa63ae.jpeg');
+}
+
+#kard4{
+  background-image: url('../assets/index/pexels-photo-278303.jpeg');
+}
+
+#kard5{
+  background-image: url('../assets/index/pexels-photo-941555.jpeg');
+}
+
+#kard6{
+  background-image: url('../assets/index/pexels-photo-6238119.jpeg');
+}
+
+#kard7{
+  background-image: url('../assets/index/pexels-photo-7506650.jpeg');
+}
+
+#kard8{
+  background-image: url('../assets/index/pexels-photo-2345374.jpeg');
+}
+
+hr{
+  width: 40%;
+  margin: auto;
+  border: 2px solid #ae80c5;;
+}
+
+.mission{
+  color: #a56cc1;
+}
+
+.mission-txt{
+  transition: all 1s;
+}
+
+.mission-txt:hover{
+  color: #fff;
+  background-color: #a56cc1;
+}
+
+.fa-clipboard-check, .fa-comments, .fa-hands-holding-child{
+  font-size: 3em;
+}
+
+.happens-cards{
+  background-color: #a56cc1;
+  color: #fff;
+}
+
+.happen-hr{
+  width: 40%;
+}
