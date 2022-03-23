@@ -65,15 +65,15 @@ button:hover{
     height: 30vh;
 }
 .socials{
-    padding: 2vh 5vw;
-    margin-left: 10vw;
+    padding: 2vh 3vw;
+    margin-left: 26vw;
 }
 .socials i{
-    margin: 0vh 4vw;
+    margin: 0vh 3vw;
     height: 6vh;
 }
 .partners{
-    margin: 7vh 5vw;
+    margin: 7vh 5vw 3vh;
 }
 .partners h2{
     margin-bottom: 5vh;
