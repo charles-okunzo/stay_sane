@@ -11,6 +11,10 @@
     object-fit: cover;
 }
 
+h1 span{
+    color: #a56cc1;
+}
+
 
 hr {
     width: 40%;
@@ -30,10 +34,6 @@ hr {
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
-}
-
-span {
-    color:#a56cc1;
 }
 
 .about-text p{
@@ -62,11 +62,15 @@ button:hover {
 }
 
 h5 {
-    color: #CEFFF1;
     font-size: 25px;
     letter-spacing: 2px;
     text-decoration: underline;
 }
+
+.mental span {
+    color: #a56cc1;
+}
+
 
 .mimg {
     width: 50%;
@@ -80,6 +84,27 @@ h5 {
     object-fit: cover;
 } */
 
-.mtext {
-    
+.mheader {
+    color: #a56cc1;
 }
+
+.mheader span{
+    color: black;
+}
+
+.vheader {
+    color: #a56cc1;
+}
+
+.vheader span {
+    color: black;
+}
+
+.cheader {
+    color: #a56cc1;
+}
+
+.cheader span {
+    color: black;
+}
+
