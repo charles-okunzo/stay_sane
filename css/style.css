@@ -138,7 +138,7 @@ hr{
 }
 
 .mission{
-  color: #a56cc1;
+  color: #bf42fd;
 }
 
 .mission-txt{
@@ -148,6 +148,12 @@ hr{
 .mission-txt:hover{
   color: #fff;
   background-color: #a56cc1;
+}
+
+.hold-hand{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .fa-clipboard-check, .fa-comments, .fa-hands-holding-child{
@@ -163,10 +169,26 @@ hr{
   width: 40%;
 }
 
+
 .why-choose{
   height: 50vh;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/index/photo-1499209974431-9dddcece7f88.jpeg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/index/pexels-photo-944762.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.mental-logo-bt{
+  width: 100%;
+  height: 12em;
+  object-fit: contain;
+}
+
+.fa-brands{
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.fa-brands:hover{
+  color: #e2adfd;
 }
