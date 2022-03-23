@@ -16,19 +16,57 @@
 <body>
     <section id="header">
       <div class="start">
-        <h1>BLOGS</h1>
-        <h5>This blog section provides all the information needed to maintain a healthy mental form. All are welcome to choose from our blog collection and learn about whatever you might be going through. These articles are written by mental health experts who have had years of experience.</h5>
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand text-white " href="#"><h2>STAY <span>SANE</span></h2></a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">STAY<span > SANE</span></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white m-2 px-4" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white m-2 px-4" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white m-2 px-4" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white m-2 px-4" href="#contact-us">Contact Us</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link  text-white m-2 px-4 btn btn-outline-info" href="#">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white m-2 px-4 btn btn-outline-info" href="#">Log In</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <h1>Blogs</h1>
+        <hr>
+        <h5>This blog section provides all the information needed to maintain a healthy mental form.<br> All are welcome to choose from our blog collection and learn about whatever you might be going through.<br> These articles are written by mental health experts who have had years of experience.</h5>
       </div>
 
     </section>
     <section id="blogs">
+
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/experts.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Types of mental health exoerts</h3>
@@ -38,7 +76,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/child-mental-health.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Child suicide and how to deal with it</h3>
@@ -48,7 +86,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/addiction.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Overcoming withdrawal symptoms</h3>
@@ -63,7 +101,7 @@
             
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/cyber-bullying.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Effects of cyber-bullying</h3>
@@ -73,7 +111,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/work-depression.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Mental health on the job</h3>
@@ -83,7 +121,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/emotional-abuse.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Dealing with emotional abuse</h3>
@@ -98,7 +136,7 @@
             
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/men-mental-health.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Depression in men</h3>
@@ -108,7 +146,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100">
                   <img src="assets/blog/stress.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Kick stress out of your life</h3>
@@ -119,7 +157,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="text-center card h-100 text-center">
                   <img src="assets/blog/self-care.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Tips for self care</h3>
