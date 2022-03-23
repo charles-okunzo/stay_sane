@@ -65,4 +65,21 @@ h5 {
     color: #CEFFF1;
     font-size: 25px;
     letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.mimg {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+/* .vimg {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+} */
+
+.mtext {
+    
 }
