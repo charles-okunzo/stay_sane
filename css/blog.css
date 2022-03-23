@@ -65,7 +65,7 @@ button:hover{
     height: 30vh;
 }
 .socials{
-    padding: 10vh 5vw;
+    padding: 2vh 5vw;
     margin-left: 10vw;
 }
 .socials i{
@@ -90,4 +90,8 @@ button:hover{
     margin: auto;
     border: 2px solid #ae80c5;
     margin-bottom: 3vh;
+}
+footer{
+    padding: 2vh 0vw 2vh;
+    text-align: center;
 }
