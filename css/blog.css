@@ -21,6 +21,7 @@ body{
     color: #CEFFF1;
     padding: 10vh 10vw 2vh 10vw;
 }
+
 hr{
     border: 2px solid;
     width: 50vh;
@@ -32,6 +33,7 @@ hr{
     background-color: black;
     margin: 5vh 1vw;
     width: 30vw;
+    min-height: max-content;
 }
 .card h3,p{
     color: #CEFFF1;
@@ -51,8 +53,45 @@ button{
     padding: 5px 5px;
     margin-bottom: 10vh;
     justify-content: center;
-    transition: 4s;
+    transition: all 4s;
+}
+button:hover{
+    background-color: transparent;
+    outline-color: #a56cc1;
+    color: #fff;
+    border: 2px solid #a56cc1;
 }
 #contacts{
     height: 30vh;
+}
+.socials{
+    padding: 2vh 3vw;
+    margin-left: 26vw;
+}
+.socials i{
+    margin: 0vh 3vw;
+    height: 6vh;
+}
+.partners{
+    margin: 7vh 5vw 3vh;
+}
+.partners h2{
+    margin-bottom: 5vh;
+    text-align: center;
+    
+}
+.partners img{
+    object-fit: cover;
+    width: 20vw;
+    padding: 2%;
+}
+.partners hr{
+    width: 40%;
+    margin: auto;
+    border: 2px solid #ae80c5;
+    margin-bottom: 3vh;
+}
+footer{
+    padding: 2vh 0vw 2vh;
+    text-align: center;
 }
