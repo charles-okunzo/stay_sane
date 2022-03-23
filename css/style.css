@@ -192,3 +192,25 @@ hr{
 .fa-brands:hover{
   color: #e2adfd;
 }
+
+.fa-solid{
+  font-size: 2.5em;
+  color: #e2adfd;
+}
+
+.fa-location-pin{
+  font-size: 2.5em;
+  color: transparent;
+}
+
+hr.links{
+  width: 30%;
+  margin: 0;
+}
+.nav-fut{
+  color: #c4c4c4;
+}
+
+.bg-dark-fut{
+  background-color: #141414;
+}
