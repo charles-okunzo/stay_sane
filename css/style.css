@@ -43,7 +43,7 @@ nav{
 }
 
 span{
-  color: #CEFFF1;
+  color: #e2adfd;
 }
 
 .banner-txt{
@@ -213,4 +213,14 @@ hr.links{
 
 .bg-dark-fut{
   background-color: #141414;
+}
+
+.sub{
+  background-color: transparent;
+  border-color: #e2adfd;
+  color: #fff;
+}
+
+::placeholder{
+  color: #fff;
 }
