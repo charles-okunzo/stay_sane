@@ -7,8 +7,9 @@ function sendEmail() {
     From: document.getElementById("email").value,
     Subject: "CONTACT US FORM INQUIRY",
     Body: "Name: " + document.getElementById("name").value
-    + "<br>Name: " + document.getElementById("name").value
-    + "<br>Name: " + document.getElementById("name").value
-    + "<br>Name: " + document.getElementById("name").value
-  }).then((message) => alert("Message Sent Succesfully"));
+    + "<br>Name: " + document.getElementById("email").value
+    + "<br>Name: " + document.getElementById("phone").value
+    + "<br>Name: " + document.getElementById("message").value
+  }).then(
+      (message) => alert("Message Sent Succesfully"));
 }
