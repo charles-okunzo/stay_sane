@@ -55,7 +55,7 @@ This is a web application meant to connect individuals struggling with mental he
 ## Known Bugs
 * No know bugs. In case you discover any, please contact the admin.
 
-## Licence
+## License
 
 Copyright (c) 2022 MIT License. [View License Here](LICENSE)
 
