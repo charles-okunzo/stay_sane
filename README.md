@@ -13,7 +13,7 @@
 
 ## Description
 
-This is a web application meant to connect individuals struggling with mental health problems to acquire needed assistance by connecting them to qualified professionals.
+This is a web application meant to connect individuals struggling with mental health problems to acquire needed assistance by connecting them to qualified professionals. [Powerpoint slides](https://docs.google.com/presentation/d/1RqccBQOWLDmqyodjcmppOMw_SWrikClm9EavVq1KudA/edit#slide=id.gd5b09a965_5_0)
 
 #### Home Page
 ![Stay Sane Landing page](assets/readme/Screenshot-from-2022-03-24-15-09-20.png)
