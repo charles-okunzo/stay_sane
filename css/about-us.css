@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
   }
 .aboutus{
     background-color: #191919;
@@ -66,7 +67,7 @@ button {
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 5px;
-    transition: .4s;
+    transition: all 4s;
 }
 
 button:hover {
@@ -145,5 +146,8 @@ button:hover {
     margin: auto;
     border: 2px solid #ae80c5;
     margin-bottom: 3vh;
+}
+img{
+    width: 100%;
 }
 
