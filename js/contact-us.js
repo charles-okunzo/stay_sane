@@ -1,11 +1,11 @@
 function sendEmail() {
   Email.send({
-    Host: "smtp.yourisp.com",
-    Username: "username",
-    Password: "password",
-    To: "them@website.com",
-    From: "you@isp.com",
-    Subject: "This is the subject",
+    Host: "smtp.gmail.com",
+    Username: "alvin.kenyagah@student.moringaschool.com",
+    Password: "MAZARATI111",
+    To: "alvin47k@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "CONTACT US FORM INQUIRY",
     Body: "And this is the body",
   }).then((message) => alert(message));
 }
