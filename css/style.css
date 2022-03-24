@@ -175,7 +175,7 @@ hr{
 
 
 .why-choose{
-  height: 50vh;
+  /* height: 50vh; */
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/index/pexels-photo-944762.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -225,7 +225,7 @@ hr.links{
   color: #fff;
 }
 
-::placeholder{
+.btn-info::placeholder{
   color: #fff;
 }
 
