@@ -123,23 +123,17 @@ button:hover {
     color: black;
 }
 
-#contacts{
+/* #contacts{
     height: 30vh;
-}
+} */
 
-.partners{
+/* .partners{
     margin: 7vh 5vw 3vh;
-}
+} */
 
-.partners h2{
-    margin-bottom: 5vh;
-    text-align: center;
-    
-}
 .partners img{
     object-fit: cover;
-    width: 20vw;
-    padding: 2%;
+    width: 100%;
 }
 .partners hr{
     width: 40%;
@@ -147,7 +141,13 @@ button:hover {
     border: 2px solid #ae80c5;
     margin-bottom: 3vh;
 }
-img{
+.col-md-6 img{
     width: 100%;
 }
+
+.carousel-item img{
+    height: 80vh;
+    object-fit: contain;
+}
+
 
