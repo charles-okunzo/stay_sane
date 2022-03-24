@@ -11,25 +11,28 @@
   <link rel="stylesheet" href="./css/style.css">
   <!-- google fonts cdn -->
   <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cookie&family=Dancing+Script:wght@400;700&family=Inspiration&family=Pacifico&family=Poppins:wght@100;300&family=Satisfy&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <!-- animate.css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <title>Stay Sane</title>
 </head>
 <body>
   <div class="bg-img vh-100">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand text-white " href="#"><h2>STAY <span>SANE</span></h2></a>
+        <a class="navbar-brand text-white " href="#"><img src="./assets/index/mental-health-icon-white-removebg-preview.png" alt="Logo"  class="logo img-fluid pb-2"><h2 class="d-inline pe-2">STAY<span>SANE</span></h2></a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">STAY<span > SANE</span></h5>
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">STAY<span>SANE</span></h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active text-white m-2 px-4" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-white m-2 px-4" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link  text-white m-2 px-4" href="./about-us.html">About</a>
@@ -62,8 +65,8 @@
         </div>
 
         <div class="col-md-8 text-white text-center">
-          <p class="fw-bold display-6">Put your mental health in check with the best professionals in Kenya</p>
-          <p class="banner-txt my-4">
+          <p class="display-5">Put your mental health in check with the best professionals in Kenya</p>
+          <p class="banner-txt my-4 fw-bold">
             ALLOWING YOU TO LIVE A HAPPY, BECAUSE YOUR MENTAL WELLBEING IS OUR BUSINESS.
           </p>
           <button class="btn btn-outline-info p-3 text-white fw-bold">GET A PROFESSIONAL</button>
@@ -140,10 +143,14 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8 mx-auto vh-50 text-center py-5">
-        <h2 class="fw-bold">OUR <span class="mission">MISSION</span></h2><hr>
-        <p class="display-6 mission-txt py-5">As a team we are committed: <br> “To educate, fight causes and change minds about mental health and its impact on families.”</p>
+      <div class="col-md-8 mission-txt mx-auto text-end my-3 py-5 order-1">
+        <p class="display-6 py-5">As a team we are committed: <br> “To educate, fight causes and change minds about mental health and its impact on families.”</p>
       </div>
+      
+      <div class="col-md-4 my-3 order-2">
+        <img src="./assets/index/clasped-hands-comfort-hands-people-45842.jpeg" alt="" class="hold-hand">
+      </div>
+      
     </div>
   </div>
 
@@ -193,6 +200,76 @@
       <h2 class="text-center py-5 text-white">WHY CHOOSE US?</h2>
       <div class="col">
 
+      </div>
+    </div>
+  </div>
+  <!-- footer section -->
+  <div class="container-fluid">
+    <div class="row bg-dark-fut text-white px-4 justify-content-between">
+      <div class="col-md-4 pt-5 px-3">
+        <img src="./assets/index/mental-health-icon-white-removebg-preview.png" alt="mental-health logo" class="img-fluid mental-logo-bt">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum a distinctio accusantium nam, nisi repellendus?</p>
+        <h3 class="fw-bold my-4">Follow <span class="mission">Us</span></h3>
+        <p class="pb-4">
+          <a href="#" class="px-2"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="px-2"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="px-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="px-2"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="px-2"><i class="fa-brands fa-youtube"></i></a>
+        </p>
+      </div>
+
+      <div class="col-md pt-5 px-3">
+        <p><i class="fa-solid fa-location-dot"></i><span class="text-white h3">  Nairobi, Kenya</span> <br><i class="fa-solid fa-location-pin">   </i> 153 Street, Moi Avenue</p>
+        <h3 class="fw-bold my-4">Useful <span class="mission">links</span></h3><hr class="links">
+        <ul class="list-unstyled">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link nav-fut">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about-us.html" class="nav-link nav-fut">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link nav-fut">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link nav-fut">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md pt-5 px-3">
+        <p><i class="fa-solid fa-phone"></i><a href="tel:+254712464800" class="nav-link d-inline"><span class="text-white h3">  +254 (0) 712 464 800</span></a> <br><i class="fa-solid fa-location-pin">   </i><i class="fa-solid fa-location-pin">   </i> Give us a call</p>
+        <h3 class="fw-bold my-4">Subs<span class="mission">cribe</span></h3><hr class="links">
+        <p>Subscribe to our email list below to get weekly updates on daily posts and other important information.</p>
+        <div class="input-group my-4">
+          <input type="email" class="form-control sub">
+          <input type="submit" class="btn btn-info" placeholder="Your email..." value="Subscribe">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-md">
+        <p class="text-white pt-4">Copyright &copy2022, All rights reserved. | STAY<span>SANE</span></p>
+      </div>
+      <div class="col-md">
+        <ul class="list-unstyled d-flex  justify-content-end">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link nav-fut">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link nav-fut">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link nav-fut">Privacy policy</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link nav-fut">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
