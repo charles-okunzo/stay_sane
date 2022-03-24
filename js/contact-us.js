@@ -1,9 +1,9 @@
 function sendEmail() {
   Email.send({
-    Host: "smtp.elasticemail.com:2525",
-    Username: "alvin47k@gmail.com",
-    Password: "EA1C8D6409B83A4E4395CD18AA31632ABCA2",
-    To: 'alvin.kenyagah@student.moringaschool.com',
+    Host: "smtp.mailtrap.io",
+    Username: "9fc97996d9ad7f",
+    Password: "f7080bbbd0a397",
+    To: 'alvin47k@gmail.com',
     From: document.getElementById("email").value,
     Subject: "CONTACT US FORM INQUIRY",
     Body: "Name: " + document.getElementById("name").value
