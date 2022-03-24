@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.start{
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../assets/blog/expertise.jpg");
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    margin-top: -10vh;
+
+}
+
+.start h1{
+    margin-top: 10vh;
+    color:#a56cc1 ;
+    padding: 18vh 10vw 0vh;
+    font-size: 12vh;
+}
+.start h5{
+    margin-top: 5vh;
+    color: #CEFFF1;
+    padding: 10vh 10vw 2vh 10vw;
+}
+
+hr{
+    border: 2px solid;
+    width: 20vh;
+    margin-top: 5vh;
+    margin: auto;
+    color: #a56cc1;
+}
+.card{
+    background-color: black;
+    margin: 5vh 1vw;
+    width: 30vw;
+    min-height: max-content;
+}
+.card h3,p{
+    color: #CEFFF1;
+    margin: 5vh 0;
+    
+}
+.card img{
+    height: 60vh;
+}
+.card-img-top{
+    object-fit: cover;
+}
+button{
+    background-color: #a56cc1;
+    color: #CEFFF1;
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin-bottom: 10vh;
+    justify-content: center;
+    transition: all 4s;
+}
+button:hover{
+    background-color: transparent;
+    outline-color: #a56cc1;
+    color: #fff;
+    border: 2px solid #a56cc1;
+}
+#contacts{
+    height: 30vh;
+}
+.socials{
+    padding: 2vh 3vw;
+    margin-left: 26vw;
+}
+.socials i{
+    margin: 0vh 3vw;
+    height: 6vh;
+}
+.partners{
+    margin: 7vh 5vw 3vh;
+}
+.partners h2{
+    margin-bottom: 5vh;
+    text-align: center;
+    
+}
+.partners img{
+    object-fit: cover;
+    width: 20vw;
+    padding: 2%;
+}
+.partners hr{
+    width: 40%;
+    margin: auto;
+    border: 2px solid #ae80c5;
+    margin-bottom: 3vh;
+}
+footer{
+    padding: 2vh 0vw 2vh;
+    text-align: center;
+}
