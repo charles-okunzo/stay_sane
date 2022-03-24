@@ -15,11 +15,14 @@
     color: #a56cc1;
 } */
 
-h1 {
+h4 {
     color: #a56cc1;
-    font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
+}
+
+.wwd {
+    color: black;
 }
 
 .mental {
@@ -27,13 +30,13 @@ h1 {
 }
 
 
-hr {
+/* hr {
     width: 40%;
     border: 2px solid #CEFFF1;
-}
+} */
 
 .about-text h1{
-    color: #a56cc1;
+    color: white;
     font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -72,11 +75,11 @@ button:hover {
     cursor: pointer;
 }
 
-h5 {
+/* h5 {
     font-size: 25px;
     letter-spacing: 2px;
     text-decoration: underline;
-}
+} */
 
 .mental span {
     color: #a56cc1;
@@ -117,5 +120,30 @@ h5 {
 
 .cheader span {
     color: black;
+}
+
+#contacts{
+    height: 30vh;
+}
+
+.partners{
+    margin: 7vh 5vw 3vh;
+}
+
+.partners h2{
+    margin-bottom: 5vh;
+    text-align: center;
+    
+}
+.partners img{
+    object-fit: cover;
+    width: 20vw;
+    padding: 2%;
+}
+.partners hr{
+    width: 40%;
+    margin: auto;
+    border: 2px solid #ae80c5;
+    margin-bottom: 3vh;
 }
 
