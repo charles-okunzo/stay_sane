@@ -6,3 +6,7 @@ divsArr.forEach((div)=>{
     $(`#${div}-overlay`).slideToggle(1000)
   })
 })
+
+// $('footer').scroll(()=>{
+//   alert('you scrolled the footer')
+// })
