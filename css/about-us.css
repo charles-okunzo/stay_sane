@@ -150,4 +150,10 @@ button:hover {
     object-fit: contain;
 }
 
+.carousel-caption{
+    background-color: rgba(25, 25, 25,0.5);
+    /* width: 60%;
+    margin: auto; */
+}
+
 
