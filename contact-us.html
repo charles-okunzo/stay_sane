@@ -66,9 +66,8 @@
 <!-- contact-us adress --> 
 
   <div class="container">
-    <div class="row py-5">
+      <div class="row py-5">
       <div class="col-md-5 mr-auto">
-       <br />
        <br />
        <br />
        <br />
@@ -76,19 +75,20 @@
         <p class="mb-5">Feel free to leave a message or reach out to us.<br> Our experts are always available and <br>are committed to serving your every need. </p>
           <ul class="list-unstyled pl-md-5 mb-5">
             <li class="d-flex text-white mb-2">
-               <span class="mr-3"><span class="icon-map"></span></span> Hughes Bldg, AAGr Flr, 46371-00100 GPO, <br> Kenya
+               <span class="mr-3"><span class="icon-map"></span></span>  153 Street, Moi Avenue <br> Kenya
             </li>
             <li class="d-flex text-white mb-2"><span class="mr-3"><span class="icon-phone"></span></span>  +254 (0) 712 464 800</li>
             <li class="d-flex text-white"><span class="mr-3"><span class="icon-envelope-o"></span></span> info@mywebsite.com </li>
         </ul>
+      </p>
    </div>
     
+    
    <!-- contact-us form --> 
-  
-        <div class="col-lg-6 mx-auto">
-          <br />
-          <br />
-          <br />
+       
+        <div class="col-md-5 mx-auto">
+          <br>
+          <form onsubmit="sendEmail(); reset(); return false;">
             <div class="card">
                 <div class="card-body">
                     <div class="row ">
@@ -98,34 +98,40 @@
                               </div>
                             </div>
                           </div>
-                    <div class="form py-3">
-                        <div class="form-row my-3">
+                          <form onsubmit="sendEmail(); reset(); return false;">
+                          
+                    <div class="form py-1">
+                        <div class="form-row my-1">
                             <div class="col-md-12">
-                                <input type="text" class="effect-1" placeholder="First Name">
+                                <!-- <input type="text" class="effect-1" placeholder="First Name"> -->
+                                <input type="text" class="effect-1" id="name" placeholder="Your Name" required>
                                 <span class="focus-border"></span>
                             </div>
                          </div>
                         <div class="form-row my-3">
                             <div class="col-md-12">
-                                <input type="text" class="effect-1" placeholder="Last Name">
+                              <input type="text" class="effect-1" id="phone" placeholder="Phone Number" required>
                                 <span class="focus-border"></span>
                             </div>
                     </div>
                     <div class="form-row my-3">
                       <div class="col-md-12">
-                        <input type="text" class="effect-1" placeholder="Email Address">
+                        <input type="text" class="effect-1" id="email" placeholder="Email" required>
                                 <span class="focus-border"></span>
                       </div>
                     </div>
                     <div class="form-row my-3">
                       <div class="col-md-12">
-                        <input type="text" class="effect-1" placeholder="Share with Us">
+                        <textarea  id="message" class="effect-1"  rows="1" placeholder="How can we help you"></textarea>
                                 <span class="focus-border"></span>
                       </div>
                     </div>
                     <div class="form-row my-3">
                       <div class="col-lg-6">
+
+              
                         <p class="text-dark"> <input type="checkbox"> I'm not a robot </p>
+                        
                       </div>
                       <div class="col-md-4">
                         <button class="btn1"> Send Message</button>
@@ -135,6 +141,7 @@
                 </div>
             </div>
         </div>
+      </form>
 
     </div>
 </div>
@@ -146,7 +153,7 @@
   <div class="row bg-dark-fut text-white px-4 justify-content-between">
     <div class="col-md-4 pt-5 px-3">
       <img src="./assets/index/mental-health-icon-white-removebg-preview.png" alt="mental-health logo" class="img-fluid mental-logo-bt">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum a distinctio accusantium nam, nisi repellendus?</p>
+      <p><br><br<br><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Volupta?</p>
       <h3 class="fw-bold my-4">Follow <span class="mission">Us</span></h3>
       <p class="pb-4">
         <a href="#" class="px-2"><i class="fa-brands fa-facebook"></i></a>
@@ -215,6 +222,11 @@
       
 
 </section>
+
+
+
+
+</section>
     
    
  
@@ -224,7 +236,10 @@
 
 
 
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
+
+<script src="/js/contact-us.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

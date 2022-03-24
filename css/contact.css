@@ -7,6 +7,7 @@
 
 .contact {
   background: url(https://lh3.googleusercontent.com/y_KjOHwmlvNbX-2zsSNuz_VAJyitU2SAEOFAZKrkFx39wZKqNIMblWS__QJ363Q0zpkvHnRVxk9siaJNqIfp7xzIjfApTmSHWUBJhXwRVQAAjWHpAVzrz0TJkwzg2F2hkr9hWQbkNA=w2400);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -64,17 +65,29 @@
   color: white;
 }
 
-.c {
-  color: beige;
-  float: inline-start;
+.cad {
   background-color: #000;
   color: #fff;
-  opacity: 0.75;
-  width: 45%;
-  padding: 10px;
-  margin: 100px auto;
+  opacity: 0.6;
   border-radius: 3%;
 }
+form{
+
+display: flex;
+flex-direction: column;
+padding: 2vh 4vh;
+max-width: 600px;
+border-radius: 10px;
+color: black;
+opacity: 0.8;
+border-radius: 3%;
+
+}
+
+.mb-5 {
+  font-size: 0.5cm;
+}
+
 .contact{
 color:white;
 }
