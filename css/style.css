@@ -91,7 +91,7 @@ span{
   top: 0;
   left: 0;
   background-color: rgba(165, 108, 193, 0.4);
-  z-index: 5;
+  z-index: 4;
 }
 
 
@@ -162,6 +162,7 @@ hr{
 
 .fa-clipboard-check, .fa-comments, .fa-hands-holding-child{
   font-size: 3em;
+  color: #fff !important;
 }
 
 .happens-cards{
@@ -175,7 +176,7 @@ hr{
 
 
 .why-choose{
-  height: 50vh;
+  /* height: 50vh; */
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/index/pexels-photo-944762.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -189,7 +190,7 @@ hr{
 }
 
 .fa-brands{
-  color: #fff;
+  color: #fff !important;
   font-size: 1.5em;
 }
 
@@ -225,7 +226,7 @@ hr.links{
   color: #fff;
 }
 
-::placeholder{
+.btn-info::placeholder{
   color: #fff;
 }
 
