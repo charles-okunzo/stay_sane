@@ -61,37 +61,4 @@ button:hover{
     color: #fff;
     border: 2px solid #a56cc1;
 }
-#contacts{
-    height: 30vh;
-}
-.socials{
-    padding: 2vh 3vw;
-    margin-left: 26vw;
-}
-.socials i{
-    margin: 0vh 3vw;
-    height: 6vh;
-}
-.partners{
-    margin: 7vh 5vw 3vh;
-}
-.partners h2{
-    margin-bottom: 5vh;
-    text-align: center;
-    
-}
-.partners img{
-    object-fit: cover;
-    width: 20vw;
-    padding: 2%;
-}
-.partners hr{
-    width: 40%;
-    margin: auto;
-    border: 2px solid #ae80c5;
-    margin-bottom: 3vh;
-}
-footer{
-    padding: 2vh 0vw 2vh;
-    text-align: center;
-}
+
