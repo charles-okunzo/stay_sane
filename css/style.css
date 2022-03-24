@@ -33,6 +33,10 @@ nav{
   background-color: #a56cc1 !important;
 }
 
+.bunner{
+  animation: slideInDown 2s forwards;
+}
+
 .btn-info{
   background-color: #a56cc1;
   border-style: none;
@@ -53,12 +57,14 @@ span{
 .banner-txt{
   font-size: 1em;
   color: #e2adfd;
+  animation: fadeInDown 2s forwards;
 }
 
 .fa-chevron-down{
   font-size: 3em;
   animation: move-down 1s infinite;
   position: relative;
+  cursor: pointer;
 }
 
 @keyframes move-down{
@@ -228,6 +234,27 @@ hr.links{
 
 .btn-info::placeholder{
   color: #fff;
+}
+
+.js-scroll{
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled{
+  opacity: 1;
+}
+
+.scrolled.fade-in{
+  animation: fadeInUp 2s ease-in-out both;
+}
+
+.scrolled.slide-in{
+  animation: slideInLeft 2s ease-in-out both;
+}
+
+.scrolled.slide-up{
+  animation: slideInUp 2s ease-in-out both;
 }
 
 @media only screen and (max-width:992px) {
