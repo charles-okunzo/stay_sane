@@ -15,7 +15,17 @@
 
 This is a web application meant to connect individuals struggling with mental health problems to acquire needed assistance by connecting them to qualified professionals.
 
-![Portfolio Landing page](assets/readme/Screenshot-from-2022-03-24-15-09-20.png)
+#### Home Page
+![Stay Sane Landing page](assets/readme/Screenshot-from-2022-03-24-15-09-20.png)
+
+#### About Us
+![About Us](assets/readme/Screenshot-from-2022-03-24-15-37-45.png)
+
+#### Blogs
+![Blogs](assets/readme/Screenshot-from-2022-03-24-15-37-52.png)
+
+#### Contact Us
+![Contact Us](assets/readme/Screenshot-from-2022-03-24-15-38-04.png)
 
 ## Installation 
 ### Requirements
@@ -27,7 +37,7 @@ This is a web application meant to connect individuals struggling with mental he
 * Open the clone in a text editor and host it on your browser
 
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#staysane)
 
 ## Live link
 [Follow This Link](https://charles-okunzo.github.io/stay_sane)
@@ -39,7 +49,7 @@ This is a web application meant to connect individuals struggling with mental he
 * jQuery
 * Bootstrap
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#staysane)
 
 
 ## Known Bugs
@@ -49,7 +59,7 @@ This is a web application meant to connect individuals struggling with mental he
 
 Copyright (c) 2022 MIT License. [View License Here](LICENSE)
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#staysane)
 
 ## Authors Info
 
@@ -61,10 +71,12 @@ Copyright (c) 2022 MIT License. [View License Here](LICENSE)
 * GitHub - [Belinda Ntinyari](https://github.com/Bel-94)
 * Email address - [ntinyaribelinda@gmail.com](mailto:ntinyaribelinda@gmail.com)
 
-## Victoria Makena- Contributor, Junior Dev.
+### Victoria Makena- Contributor, Junior Dev.
 * GitHub - [Victoria Makena](https://github.com/tori-bot)
 * Email address - [makenavictoria1@gmail.com](mailto:makenavictoria1@gmail.com)
 
-## Alvin Kenyagah- Contributor, Junior Dev.
+### Alvin Kenyagah- Contributor, Junior Dev.
 * GitHub - [Alvin Kenyagah](https://github.com/alvinkenyagah)
 * Email address - [alvin47k@gmail.com](mailto:alvin47k@gmail.com)
+
+[Go Back to the top](#staysane)
