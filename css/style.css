@@ -162,6 +162,7 @@ hr{
 
 .fa-clipboard-check, .fa-comments, .fa-hands-holding-child{
   font-size: 3em;
+  color: #fff !important;
 }
 
 .happens-cards{
@@ -189,7 +190,7 @@ hr{
 }
 
 .fa-brands{
-  color: #fff;
+  color: #fff !important;
   font-size: 1.5em;
 }
 
